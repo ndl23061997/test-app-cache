@@ -1,7 +1,0 @@
-{
-  "appId": "io.ionic.starter",
-  "appName": "test-cache-data",
-  "bundledWebRuntime": false,
-  "npmClient": "npm",
-  "webDir": "www"
-}
