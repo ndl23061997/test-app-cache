@@ -8,7 +8,12 @@
 
 <ion-content>
   <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+    <ion-list>
+      <ion-item *ngFor="let item of items">
+        <ion-label>{{ item.id }}</ion-label>
+        <ion-label>{{ item.title }}</ion-label>
+        <ion-label>{{ item.completed }}</ion-label>
+      </ion-item>
+    </ion-list>
   </div>
 </ion-content>
